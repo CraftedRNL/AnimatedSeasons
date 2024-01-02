@@ -28,7 +28,7 @@ section .set {
     left: 0;
     pointer-events: none;
 }
-section.set div {
+section .set div {
     position: absolute;
     display: block;
 }
