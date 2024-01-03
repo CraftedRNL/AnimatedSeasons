@@ -1,0 +1,24 @@
+.n1 {
+    position: absolute;
+    display: inline;
+    left: 15%;
+    border: 5px solid lightblue;
+}
+.n2 {
+    position: absolute;
+    display: inline;
+    left: 25%;
+    border: 5px solid lightgreen;
+}
+.n3 {
+    position: absolute;
+    display: inline;
+    left: 35%;
+    border: 5px solid lightyellow;
+}
+.n4 {
+    position: absolute;
+    display: inline;
+    left: 45%;
+    border: 5px solid lightsalmon;
+}
