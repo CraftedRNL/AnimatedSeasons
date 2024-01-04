@@ -6,6 +6,7 @@
     text-decoration: none;
     color: white;
 }
+
 section {
     position: relative;
     width: 100%;
@@ -19,6 +20,7 @@ div.n1 {
     display:table;
     width:100%;
 }
+
 div.n1 span {
     display:table-cell;
     text-align:center;
