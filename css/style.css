@@ -8,6 +8,10 @@ h2 {
     font-family: 'Bungee Spice', sans-serif;
 }
 
+.txt {
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+
 section {
     position: relative;
     width: 100%;
@@ -18,14 +22,25 @@ section {
     justify-content: center;
     align-items: center;
 }
+
 .springsc {
-    background: radial-gradient(#079dd8, #006eff);
+    background: radial-gradient(#a1f7b6, #00ff0d);
+
 }
+
+.summersc {
+    background: radial-gradient(#ffc402, #ff1e00);
+}
+
+.wintersc {
+    background: radial-gradient(#a4d4e7, #4895fa);
+}
+
 section h2 {
     font-size: 8rem;
 }
 
-section .set {
+section .set, .down {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -34,7 +49,7 @@ section .set {
     pointer-events: none;
 }
 
-section .set div {
+section .set div, .down {
     position: absolute;
     display: block;
 }
@@ -44,42 +59,48 @@ section .set div:nth-child(1) {
     animation: animate 15s linear infinite;
     animation-delay: -7s;
 }
+
 section .set div:nth-child(2) {
     left: 50%;
     animation: animate 15s linear infinite;
     animation-delay: -5s;
 }
+
 section .set div:nth-child(3) {
     left: 70%;
     animation: animate 20s linear infinite;
     animation-delay: 0s;
 }
+
 section .set div:nth-child(4) {
     left: 0%;
     animation: animate 15s linear infinite;
     animation-delay: -5s;
 }
+
 section .set div:nth-child(5) {
     left: 85%;
     animation: animate 18s linear infinite;
     animation-delay: -10s;
 }
+
 section .set div:nth-child(6) {
     left: 0%;
     animation: animate 12s linear infinite;
 }
+
 section .set div:nth-child(7) {
     left: 15%;
     animation: animate 14s linear infinite;
 }
+
 section .set div:nth-child(8) {
     left: 60%;
     animation: animate 15s linear infinite;
     animation-delay: -10s;
 }
 
-@keyframes animate
- {
+@keyframes animate {
     0% {
         opacity: 0;
         top: -10%;
@@ -93,25 +114,124 @@ section .set div:nth-child(8) {
     20% {
         transform: translateX(-20px) rotate(45deg);
     }
+
     40% {
         transform: translateX(-20px) rotate(90deg);
     }
+
     60% {
         transform: translateX(20px) rotate(180deg);
     }
+
     80% {
         transform: translateX(-20px) rotate(180deg);
     }
+
     100% {
         top: 110%;
         transform: translateX(-20px) rotate(225deg);
     }
 }
+
 .set2 {
     transform: scale(2) rotateY(180deg);
     filter: blur(2px);
 }
+
 .set3 {
     transform: scale(0.8) rotateX(180deg);
     filter: blur(4px);
+}
+
+img {
+    width: 100px;
+}
+
+.drops {
+    transform: scale(0.8);
+    filter: blur(4px);
+}
+
+.drops2 {
+    transform: scale(2);
+    filter: blur(2px);
+}
+
+section .down div:nth-child(1) {
+    left: 20%;
+    animation: animated 15s linear infinite;
+    animation-delay: -7s;
+}
+
+section .down div:nth-child(2) {
+    left: 50%;
+    animation: animated 15s linear infinite;
+    animation-delay: -5s;
+}
+
+section .down div:nth-child(3) {
+    left: 70%;
+    animation: animated 20s linear infinite;
+    animation-delay: 0s;
+}
+
+section .down div:nth-child(4) {
+    left: 0%;
+    animation: animated 15s linear infinite;
+    animation-delay: -5s;
+}
+
+section .down div:nth-child(5) {
+    left: 85%;
+    animation: animated 18s linear infinite;
+    animation-delay: -10s;
+}
+
+section .down div:nth-child(6) {
+    left: 0%;
+    animation: animated 12s linear infinite;
+}
+
+section .down div:nth-child(7) {
+    left: 15%;
+    animation: animated 14s linear infinite;
+}
+
+section .down div:nth-child(8) {
+    left: 60%;
+    animation: animated 15s linear infinite;
+    animation-delay: -10s;
+}
+
+@keyframes animated {
+    0% {
+        opacity: 0;
+        top: -10%;
+        transform: translateX(20px);
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    20% {
+        transform: translateX(-20px);
+    }
+
+    40% {
+        transform: translateX(-20px);
+    }
+
+    60% {
+        transform: translateX(20px);
+    }
+
+    80% {
+        transform: translateX(-20px);
+    }
+
+    100% {
+        top: 110%;
+        transform: translateX(-20px) ;
+    }
 }
