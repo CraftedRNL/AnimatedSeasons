@@ -1,24 +1,27 @@
-.n1 {
-    position: absolute;
-    display: inline;
-    left: 15%;
-    border: 5px solid lightblue;
+*{
+    padding: 0%;
+    margin: 0%;
+    top: 50%;
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
 }
-.n2 {
-    position: absolute;
-    display: inline;
-    left: 25%;
-    border: 5px solid lightgreen;
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.redd.it/841666uly00b1.gif');
 }
-.n3 {
-    position: absolute;
-    display: inline;
-    left: 35%;
-    border: 5px solid lightyellow;
+div.n1 {
+    display:table;
+    width:100%;
 }
-.n4 {
-    position: absolute;
-    display: inline;
-    left: 45%;
-    border: 5px solid lightsalmon;
+
+div.n1 span {
+    display:table-cell;
+    text-align:center;
 }
