@@ -18,7 +18,9 @@ section {
     justify-content: center;
     align-items: center;
 }
-
+.springsc {
+    background: radial-gradient(#079dd8, #006eff);
+}
 section h2 {
     font-size: 8rem;
 }
