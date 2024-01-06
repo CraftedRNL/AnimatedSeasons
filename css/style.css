@@ -5,13 +5,20 @@
 }
 
 h2 {
-    font-family: 'Bungee Spice', sans-serif;
+    font-family: 'Bungee Spice';
 }
 
 .txt {
-    font-family: 'Rubik Doodle Shadow', system-ui;
+    font-family: 'Rubik Doodle Shadow';
 }
-
+.txt2 {
+    font-family: 'Rubik Maps';
+}
+.txt3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Lemon', serif;
+    font-family: 'Rubik Maps', system-ui;
+}
 section {
     position: relative;
     width: 100%;
