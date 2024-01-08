@@ -104,6 +104,11 @@ section .set div:nth-child(8) {
     animation: animate 15s linear infinite;
     animation-delay: -10s;
 }
+section .set div:nth-child(9) {
+    left: 20%;
+    animation: animates 11s linear infinite;
+    animation-delay: -7s;
+}
 
 @keyframes animate {
     0% {
@@ -203,7 +208,11 @@ section .down div:nth-child(7) {
 section .down div:nth-child(8) {
     left: 60%;
     animation: animated 6s linear infinite;
-
+}
+section .down div:nth-child(9) {
+    left: 20%;
+    animation: animates 6s linear infinite;
+    animation-delay: -7s;
 }
 
 @keyframes animated {
@@ -299,6 +308,11 @@ section .ars div:nth-child(8) {
     animation: animates 8s linear infinite;
     animation-delay: -10s;
 }
+section .ars div:nth-child(9) {
+    left: 35%;
+    animation: animates 10s linear infinite;
+    animation-delay: -3s;
+}
 
 @keyframes animates {
     0% {
@@ -358,3 +372,7 @@ section .ars div {
 img {
     width: 100px;
 }
+.special {
+    pointer-events: auto;
+}
+
