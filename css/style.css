@@ -390,7 +390,7 @@ body {
     padding: 20px 100px;
     background: radial-gradient(#7c7777, #cfcaca);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     z-index: 100;
 }
@@ -407,7 +407,10 @@ body {
     color: #000;
     font-weight: 500;
     text-decoration: none;
-    margin-left: 40px;
+ 
+}
+.marg {
+    margin-left: 50px;
 }
 .navbar a::before {
     content: "";
@@ -416,7 +419,7 @@ body {
     width: 0;
     left: 0;
     height: 2px;
-    background: #5500fd;
+    background: #fd0000;
     transition: .3s;
 }
 .navbar a:hover::before {
