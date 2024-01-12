@@ -388,7 +388,6 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    background: radial-gradient(#7c7777, #cfcaca);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -398,13 +397,13 @@ body {
     font-size: 35px;
     color: #78de5f;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 1000;
     font-size: 30px;
 }
 .navbar a {
     position: relative;
-    font-size: 30px;
-    color: #000;
+    font-size: 40px;
+    color: #003cff;
     font-weight: 500;
     text-decoration: none;
  
