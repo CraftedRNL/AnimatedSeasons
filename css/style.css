@@ -392,6 +392,7 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 100;
+    background: radial-gradient(#e0dbdb, #000000);
 }
 .logo {
     font-size: 35px;
