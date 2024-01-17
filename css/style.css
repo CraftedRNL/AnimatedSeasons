@@ -394,13 +394,13 @@ body {
     z-index: 100;
     background: radial-gradient(#e0dbdb, #000000);
 }
-.logo {
+/* .logo {
     font-size: 35px;
     color: #78de5f;
     text-decoration: none;
     font-weight: 1000;
     font-size: 30px;
-}
+} */
 .navbar a {
     position: relative;
     font-size: 40px;
@@ -424,5 +424,4 @@ body {
 }
 .navbar a:hover::before {
     width: 100%;
-    
 }
