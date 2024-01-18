@@ -416,13 +416,12 @@ body {
 }
 
 .txt {
-    font-family: 'Rubik Doodle Shadow';
+        font-family: "Lemon", serif;
 }
+      
 .txt2 {
     font-family: 'Rubik Maps';
 }
 .txt3 {
-    font-family: 'Bebas Neue', sans-serif;
-    font-family: 'Lemon', serif;
-    font-family: 'Rubik Maps', system-ui;
+    font-family: "Exo 2", sans-serif;;
 }
