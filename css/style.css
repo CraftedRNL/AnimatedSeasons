@@ -417,11 +417,14 @@ body {
 
 .txt {
         font-family: "Lemon", serif;
+        color: #00b7ff;
 }
       
 .txt2 {
     font-family: 'Rubik Maps';
+    color: rgb(255, 92, 92);
 }
 .txt3 {
-    font-family: "Exo 2", sans-serif;;
+    font-family: "Exo 2", sans-serif;
+    color: aliceblue;
 }
